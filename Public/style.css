@@ -1,0 +1,22 @@
+#head{
+    text-align: center;
+    margin: 10px;
+    background: #0002DB;
+        background: linear-gradient(to right, #0002DB 12%, #00DFFF 43%, #B700E8 93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+#cr-ps{
+    margin: auto;
+    padding: 10px 250px;
+    border-radius: 10px;
+    width: fit-content;
+    border: 2px solid rgb(100, 11, 253);
+    cursor: pointer; 
+    transition: all 0.2s;
+}
+#cr-ps:hover{
+    border: 2px solid rgb(76, 36, 255);   
+    background-color: rgba(235, 235, 235, 0.764);
+    transform: scale(1.05);
+}
